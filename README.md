@@ -96,3 +96,11 @@ display(pd.DataFrame(robust_scaled, columns=['Height', 'Weight']).head())
 
 # RESULT:
 Thus, the given dataset was successfully read and cleaned. Feature Scaling and Feature Selection were successfully performed on the dataset.
+
+# SUMMARY
+The given BMI dataset was successfully loaded, inspected, and cleaned by removing missing values.
+Relevant features such as Height and Weight were selected for further processing.
+Feature scaling was performed using Min-Max, Standard, Normalizer, MaxAbs, and Robust Scaling techniques.
+These techniques transform features into suitable ranges, reducing the effect of different feature magnitudes and improving model performance.
+Feature selection helps identify the most relevant attributes, reducing unnecessary data and computational complexity.
+Thus, the experiment demonstrates an effective preprocessing pipeline for preparing data for machine learning and data mining applications.
